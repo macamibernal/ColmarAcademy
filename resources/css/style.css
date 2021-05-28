@@ -1,0 +1,242 @@
+/* General */
+body {
+  margin: 0;
+  font-family: 'Avenir Next', 'Proxima Nova', 'Helvetica', monotype;
+  font-size: 16px;
+  color: #4a4a4a;
+}
+
+h1 {
+  font-size: 50px;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 35px;
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: gray;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.logo {
+  display: inline-flex;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.logo span {
+  font-size: 32px;
+  padding-left: 10px;
+  color: gray;
+}
+
+strong {
+  color: black;
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+li {
+  padding: 0 8px;
+}
+
+
+/* Banner */
+.banner {
+  background-color: #d8d8d8;
+  padding: 32px 24px;
+  display: flex;
+}
+
+.banner img {
+  width: 60%;
+  height: 100%;
+}
+
+.banner-text {
+  width: 30%;
+  padding-left: 40px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-text h3 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+button {
+  padding: 8px 80px;
+  background-color: #4a4a4a;
+  border: none;
+  color: white;
+  font-family: 'Avenir Next', 'Proxima Nova', 'Helvetica', monotype;
+  font-size: 16px;
+}
+
+
+/* Information */
+.information {
+  background-color: #F3F4F5;
+  display: flex;
+  padding: 32px 0 32px 24px ;
+}
+
+.practice {
+  width: 60%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.practice img {
+  width: 100%;
+}
+
+.practice h2 {
+  margin: 32px 0 0px;
+}
+
+.quote {
+  font-size: 13px;
+}
+
+.side {
+  width: 40%;
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+.info {
+  display: inline-flex;
+  flex-direction: row;
+  border: 1px solid #d8d8d8;
+}
+
+.info img {
+  width: 35%;
+  height: 100%;
+  margin: 16px;
+}
+
+.info-text {
+  width: 65%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-text p {
+  margin: 4px 0;
+}
+
+.info-text a {
+  color: cornflowerBlue;
+  text-decoration: none;
+}
+
+.selected {
+  background-color: #d8d8d8;
+}
+
+
+/* Courses */
+.courses {
+  background-color: #d8d8d8;
+  padding: 50px 72px;
+}
+
+.courses h2{
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  grid-gap: 32px;
+}
+
+.grid img {
+  height: auto;
+  width: 100%;
+}
+
+.course {
+  background-color: white;
+}
+
+.course-text {
+  margin: 16px 16px 32px;
+}
+
+.course p {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+
+/* Thesis */
+.thesis {
+  background-color: #F3F4F5;
+  display: flex;
+  padding: 50px 0 32px 24px;
+}
+
+.urban {
+  width: 60%;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.urban video {
+  width: 100%;
+}
+
+.urban h2 {
+  margin: 24px 0 8px;
+}
+
+
+/* Footer */
+footer {
+  background-color: #F3F4F5;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  padding: 16px 24px 40px;
+}
+
+.legal {
+  display: inline-flex;
+}
+
+.item {
+  padding: 0 7px;
+}
